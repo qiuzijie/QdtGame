@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D09AA2A20A02B0300B4DBAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D09AA2920A02B0300B4DBAA /* AppDelegate.m */; };
+		7D09AA3020A02B0300B4DBAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D09AA2E20A02B0300B4DBAA /* Main.storyboard */; };
+		7D09AA3220A02B0400B4DBAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D09AA3120A02B0400B4DBAA /* Assets.xcassets */; };
+		7D09AA3520A02B0400B4DBAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D09AA3320A02B0400B4DBAA /* LaunchScreen.storyboard */; };
+		7D09AA3820A02B0400B4DBAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D09AA3720A02B0400B4DBAA /* main.m */; };
+		7D09AA4220A02B0400B4DBAA /* QdtGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D09AA4120A02B0400B4DBAA /* QdtGameTests.m */; };
+		7D09AA4D20A02B0400B4DBAA /* QdtGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D09AA4C20A02B0400B4DBAA /* QdtGameUITests.m */; };
+		7D09AA7320A0866A00B4DBAA /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D09AA7220A0866A00B4DBAA /* SpriteKit.framework */; };
+		7D09AA7820A0961500B4DBAA /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D09AA7720A0961500B4DBAA /* Reveal.framework */; };
+		7D09AA7A20A0964A00B4DBAA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D09AA7920A0964A00B4DBAA /* libz.tbd */; };
+		7D09B76D20A1755800B4DBAA /* NSString+QdtVerificationMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D09B76A20A1755700B4DBAA /* NSString+QdtVerificationMethods.m */; };
+		7D09B76E20A1755800B4DBAA /* NSString+QdtEncryptionMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D09B76C20A1755800B4DBAA /* NSString+QdtEncryptionMethods.m */; };
+		7D09B77420A186CD00B4DBAA /* NSString+Method.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D09B77320A186CD00B4DBAA /* NSString+Method.m */; };
+		7D09B78920A194BA00B4DBAA /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D09B78320A194B900B4DBAA /* LoginViewController.m */; };
+		7D09B78A20A194BA00B4DBAA /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D09B78520A194B900B4DBAA /* GameScene.m */; };
+		7D537A1320A7BFB200F0B6F3 /* DataScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D537A1220A7BFB200F0B6F3 /* DataScene.m */; };
+		7D537A1520A7C46B00F0B6F3 /* VCR OSD Mono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D537A1420A7C46B00F0B6F3 /* VCR OSD Mono.ttf */; };
+		7D537A1720A7C8D500F0B6F3 /* Hanzipen.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 7D537A1620A7C8D500F0B6F3 /* Hanzipen.ttc */; };
+		7D537A1920A801D300F0B6F3 /* CharacterSelectScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7D537A1820A801D300F0B6F3 /* CharacterSelectScene.sks */; };
+		7D537A2020A82AD300F0B6F3 /* dengluScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7D537A1F20A82AD300F0B6F3 /* dengluScene.sks */; };
+		7D537A2220A8321B00F0B6F3 /* chi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D537A2120A8321B00F0B6F3 /* chi.mp3 */; };
+		7D537A2420A8346B00F0B6F3 /* yinhun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D537A2320A8346A00F0B6F3 /* yinhun.mp3 */; };
+		7D537A2820A8370A00F0B6F3 /* beijing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D537A2720A8370A00F0B6F3 /* beijing.mp3 */; };
+		7D537A2C20A8380C00F0B6F3 /* ding.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7D537A2B20A8380C00F0B6F3 /* ding.m4a */; };
+		7D537A2F20A83CD800F0B6F3 /* DaKaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D537A2E20A83CD800F0B6F3 /* DaKaViewController.m */; };
+		7D917C5720A6CAE10081F63A /* gameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7D917C5620A6CAE10081F63A /* gameScene.sks */; };
+		7D917C5920A714680081F63A /* DataScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7D917C5820A714680081F63A /* DataScene.sks */; };
+		FE6AB87112C50EB9E8BB9077 /* libPods-QdtGame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E35A152A41145F11E718AD4 /* libPods-QdtGame.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D09AA3E20A02B0400B4DBAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D09AA1D20A02B0300B4DBAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D09AA2420A02B0300B4DBAA;
+			remoteInfo = QdtGame;
+		};
+		7D09AA4920A02B0400B4DBAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D09AA1D20A02B0300B4DBAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D09AA2420A02B0300B4DBAA;
+			remoteInfo = QdtGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E35A152A41145F11E718AD4 /* libPods-QdtGame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QdtGame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3833C1BD5DE69413CC2372 /* Pods-QdtGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QdtGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QdtGame/Pods-QdtGame.debug.xcconfig"; sourceTree = "<group>"; };
+		7D09AA2520A02B0300B4DBAA /* QdtGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QdtGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D09AA2820A02B0300B4DBAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D09AA2920A02B0300B4DBAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D09AA2F20A02B0300B4DBAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D09AA3120A02B0400B4DBAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D09AA3420A02B0400B4DBAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D09AA3620A02B0400B4DBAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D09AA3720A02B0400B4DBAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D09AA3D20A02B0400B4DBAA /* QdtGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QdtGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D09AA4120A02B0400B4DBAA /* QdtGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QdtGameTests.m; sourceTree = "<group>"; };
+		7D09AA4320A02B0400B4DBAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D09AA4820A02B0400B4DBAA /* QdtGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QdtGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D09AA4C20A02B0400B4DBAA /* QdtGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QdtGameUITests.m; sourceTree = "<group>"; };
+		7D09AA4E20A02B0400B4DBAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D09AA7220A0866A00B4DBAA /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		7D09AA7720A0961500B4DBAA /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		7D09AA7920A0964A00B4DBAA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		7D09B76920A1755700B4DBAA /* NSString+QdtVerificationMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QdtVerificationMethods.h"; sourceTree = "<group>"; };
+		7D09B76A20A1755700B4DBAA /* NSString+QdtVerificationMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QdtVerificationMethods.m"; sourceTree = "<group>"; };
+		7D09B76B20A1755700B4DBAA /* NSString+QdtEncryptionMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QdtEncryptionMethods.h"; sourceTree = "<group>"; };
+		7D09B76C20A1755800B4DBAA /* NSString+QdtEncryptionMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QdtEncryptionMethods.m"; sourceTree = "<group>"; };
+		7D09B77220A186CD00B4DBAA /* NSString+Method.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Method.h"; sourceTree = "<group>"; };
+		7D09B77320A186CD00B4DBAA /* NSString+Method.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Method.m"; sourceTree = "<group>"; };
+		7D09B78320A194B900B4DBAA /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		7D09B78520A194B900B4DBAA /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		7D09B78720A194BA00B4DBAA /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		7D09B78820A194BA00B4DBAA /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		7D537A1120A7BFB200F0B6F3 /* DataScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataScene.h; sourceTree = "<group>"; };
+		7D537A1220A7BFB200F0B6F3 /* DataScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataScene.m; sourceTree = "<group>"; };
+		7D537A1420A7C46B00F0B6F3 /* VCR OSD Mono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VCR OSD Mono.ttf"; sourceTree = "<group>"; };
+		7D537A1620A7C8D500F0B6F3 /* Hanzipen.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hanzipen.ttc; sourceTree = "<group>"; };
+		7D537A1820A801D300F0B6F3 /* CharacterSelectScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CharacterSelectScene.sks; sourceTree = "<group>"; };
+		7D537A1F20A82AD300F0B6F3 /* dengluScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = dengluScene.sks; sourceTree = "<group>"; };
+		7D537A2120A8321B00F0B6F3 /* chi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chi.mp3; sourceTree = "<group>"; };
+		7D537A2320A8346A00F0B6F3 /* yinhun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yinhun.mp3; sourceTree = "<group>"; };
+		7D537A2720A8370A00F0B6F3 /* beijing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beijing.mp3; sourceTree = "<group>"; };
+		7D537A2B20A8380C00F0B6F3 /* ding.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ding.m4a; sourceTree = "<group>"; };
+		7D537A2D20A83CD800F0B6F3 /* DaKaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DaKaViewController.h; sourceTree = "<group>"; };
+		7D537A2E20A83CD800F0B6F3 /* DaKaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaKaViewController.m; sourceTree = "<group>"; };
+		7D917C5620A6CAE10081F63A /* gameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = gameScene.sks; sourceTree = "<group>"; };
+		7D917C5820A714680081F63A /* DataScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = DataScene.sks; sourceTree = "<group>"; };
+		ECE0A455F5BBB103F77BFA8F /* Pods-QdtGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QdtGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-QdtGame/Pods-QdtGame.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D09AA2220A02B0300B4DBAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D09AA7A20A0964A00B4DBAA /* libz.tbd in Frameworks */,
+				7D09AA7320A0866A00B4DBAA /* SpriteKit.framework in Frameworks */,
+				7D09AA7820A0961500B4DBAA /* Reveal.framework in Frameworks */,
+				FE6AB87112C50EB9E8BB9077 /* libPods-QdtGame.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D09AA3A20A02B0400B4DBAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D09AA4520A02B0400B4DBAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D09AA1C20A02B0300B4DBAA = {
+			isa = PBXGroup;
+			children = (
+				7D09AA2720A02B0300B4DBAA /* QdtGame */,
+				7D09AA4020A02B0400B4DBAA /* QdtGameTests */,
+				7D09AA4B20A02B0400B4DBAA /* QdtGameUITests */,
+				7D09AA2620A02B0300B4DBAA /* Products */,
+				7D09AA7120A0866A00B4DBAA /* Frameworks */,
+				A25DBB0EF80E1DEA5FD73879 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		7D09AA2620A02B0300B4DBAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D09AA2520A02B0300B4DBAA /* QdtGame.app */,
+				7D09AA3D20A02B0400B4DBAA /* QdtGameTests.xctest */,
+				7D09AA4820A02B0400B4DBAA /* QdtGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D09AA2720A02B0300B4DBAA /* QdtGame */ = {
+			isa = PBXGroup;
+			children = (
+				7D09AA2820A02B0300B4DBAA /* AppDelegate.h */,
+				7D09AA2920A02B0300B4DBAA /* AppDelegate.m */,
+				7D09B78220A1948100B4DBAA /* Scene */,
+				7D09AA3120A02B0400B4DBAA /* Assets.xcassets */,
+				7D537A1420A7C46B00F0B6F3 /* VCR OSD Mono.ttf */,
+				7D537A1620A7C8D500F0B6F3 /* Hanzipen.ttc */,
+				7D09B76820A1754100B4DBAA /* Category */,
+				7D09AA2E20A02B0300B4DBAA /* Main.storyboard */,
+				7D09AA7720A0961500B4DBAA /* Reveal.framework */,
+				7D09AA3320A02B0400B4DBAA /* LaunchScreen.storyboard */,
+				7D09AA3620A02B0400B4DBAA /* Info.plist */,
+				7D09AA3720A02B0400B4DBAA /* main.m */,
+			);
+			path = QdtGame;
+			sourceTree = "<group>";
+		};
+		7D09AA4020A02B0400B4DBAA /* QdtGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D09AA4120A02B0400B4DBAA /* QdtGameTests.m */,
+				7D09AA4320A02B0400B4DBAA /* Info.plist */,
+			);
+			path = QdtGameTests;
+			sourceTree = "<group>";
+		};
+		7D09AA4B20A02B0400B4DBAA /* QdtGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D09AA4C20A02B0400B4DBAA /* QdtGameUITests.m */,
+				7D09AA4E20A02B0400B4DBAA /* Info.plist */,
+			);
+			path = QdtGameUITests;
+			sourceTree = "<group>";
+		};
+		7D09AA7120A0866A00B4DBAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D09AA7920A0964A00B4DBAA /* libz.tbd */,
+				7D09AA7220A0866A00B4DBAA /* SpriteKit.framework */,
+				1E35A152A41145F11E718AD4 /* libPods-QdtGame.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D09B76820A1754100B4DBAA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7D09B76B20A1755700B4DBAA /* NSString+QdtEncryptionMethods.h */,
+				7D09B76C20A1755800B4DBAA /* NSString+QdtEncryptionMethods.m */,
+				7D09B76920A1755700B4DBAA /* NSString+QdtVerificationMethods.h */,
+				7D09B76A20A1755700B4DBAA /* NSString+QdtVerificationMethods.m */,
+				7D09B77220A186CD00B4DBAA /* NSString+Method.h */,
+				7D09B77320A186CD00B4DBAA /* NSString+Method.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7D09B78220A1948100B4DBAA /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				7D09B78820A194BA00B4DBAA /* LoginViewController.h */,
+				7D09B78320A194B900B4DBAA /* LoginViewController.m */,
+				7D537A2D20A83CD800F0B6F3 /* DaKaViewController.h */,
+				7D537A2E20A83CD800F0B6F3 /* DaKaViewController.m */,
+				7D537A1120A7BFB200F0B6F3 /* DataScene.h */,
+				7D537A1220A7BFB200F0B6F3 /* DataScene.m */,
+				7D09B78720A194BA00B4DBAA /* GameScene.h */,
+				7D09B78520A194B900B4DBAA /* GameScene.m */,
+				7D537A2120A8321B00F0B6F3 /* chi.mp3 */,
+				7D537A2320A8346A00F0B6F3 /* yinhun.mp3 */,
+				7D537A2720A8370A00F0B6F3 /* beijing.mp3 */,
+				7D537A2B20A8380C00F0B6F3 /* ding.m4a */,
+				7D917C5820A714680081F63A /* DataScene.sks */,
+				7D537A1F20A82AD300F0B6F3 /* dengluScene.sks */,
+				7D537A1820A801D300F0B6F3 /* CharacterSelectScene.sks */,
+				7D917C5620A6CAE10081F63A /* gameScene.sks */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		A25DBB0EF80E1DEA5FD73879 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E3833C1BD5DE69413CC2372 /* Pods-QdtGame.debug.xcconfig */,
+				ECE0A455F5BBB103F77BFA8F /* Pods-QdtGame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D09AA2420A02B0300B4DBAA /* QdtGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D09AA5120A02B0400B4DBAA /* Build configuration list for PBXNativeTarget "QdtGame" */;
+			buildPhases = (
+				B8858DB15EBC74A51BE0A21F /* [CP] Check Pods Manifest.lock */,
+				7D09AA2120A02B0300B4DBAA /* Sources */,
+				7D09AA2220A02B0300B4DBAA /* Frameworks */,
+				7D09AA2320A02B0300B4DBAA /* Resources */,
+				DAAFDAE06CF3AA84CD3B2B7D /* [CP] Embed Pods Frameworks */,
+				99B5E5431D1AC653B3E2EAC0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QdtGame;
+			productName = QdtGame;
+			productReference = 7D09AA2520A02B0300B4DBAA /* QdtGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D09AA3C20A02B0400B4DBAA /* QdtGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D09AA5420A02B0400B4DBAA /* Build configuration list for PBXNativeTarget "QdtGameTests" */;
+			buildPhases = (
+				7D09AA3920A02B0400B4DBAA /* Sources */,
+				7D09AA3A20A02B0400B4DBAA /* Frameworks */,
+				7D09AA3B20A02B0400B4DBAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D09AA3F20A02B0400B4DBAA /* PBXTargetDependency */,
+			);
+			name = QdtGameTests;
+			productName = QdtGameTests;
+			productReference = 7D09AA3D20A02B0400B4DBAA /* QdtGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D09AA4720A02B0400B4DBAA /* QdtGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D09AA5720A02B0400B4DBAA /* Build configuration list for PBXNativeTarget "QdtGameUITests" */;
+			buildPhases = (
+				7D09AA4420A02B0400B4DBAA /* Sources */,
+				7D09AA4520A02B0400B4DBAA /* Frameworks */,
+				7D09AA4620A02B0400B4DBAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D09AA4A20A02B0400B4DBAA /* PBXTargetDependency */,
+			);
+			name = QdtGameUITests;
+			productName = QdtGameUITests;
+			productReference = 7D09AA4820A02B0400B4DBAA /* QdtGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D09AA1D20A02B0300B4DBAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = qiuzijie;
+				TargetAttributes = {
+					7D09AA2420A02B0300B4DBAA = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					7D09AA3C20A02B0400B4DBAA = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 7D09AA2420A02B0300B4DBAA;
+					};
+					7D09AA4720A02B0400B4DBAA = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 7D09AA2420A02B0300B4DBAA;
+					};
+				};
+			};
+			buildConfigurationList = 7D09AA2020A02B0300B4DBAA /* Build configuration list for PBXProject "QdtGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D09AA1C20A02B0300B4DBAA;
+			productRefGroup = 7D09AA2620A02B0300B4DBAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D09AA2420A02B0300B4DBAA /* QdtGame */,
+				7D09AA3C20A02B0400B4DBAA /* QdtGameTests */,
+				7D09AA4720A02B0400B4DBAA /* QdtGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D09AA2320A02B0300B4DBAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D09AA3520A02B0400B4DBAA /* LaunchScreen.storyboard in Resources */,
+				7D09AA3220A02B0400B4DBAA /* Assets.xcassets in Resources */,
+				7D537A2220A8321B00F0B6F3 /* chi.mp3 in Resources */,
+				7D537A2820A8370A00F0B6F3 /* beijing.mp3 in Resources */,
+				7D537A1920A801D300F0B6F3 /* CharacterSelectScene.sks in Resources */,
+				7D537A2020A82AD300F0B6F3 /* dengluScene.sks in Resources */,
+				7D537A2C20A8380C00F0B6F3 /* ding.m4a in Resources */,
+				7D537A1720A7C8D500F0B6F3 /* Hanzipen.ttc in Resources */,
+				7D917C5720A6CAE10081F63A /* gameScene.sks in Resources */,
+				7D09AA3020A02B0300B4DBAA /* Main.storyboard in Resources */,
+				7D917C5920A714680081F63A /* DataScene.sks in Resources */,
+				7D537A1520A7C46B00F0B6F3 /* VCR OSD Mono.ttf in Resources */,
+				7D537A2420A8346B00F0B6F3 /* yinhun.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D09AA3B20A02B0400B4DBAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D09AA4620A02B0400B4DBAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		99B5E5431D1AC653B3E2EAC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QdtGame/Pods-QdtGame-resources.sh",
+				"${PODS_ROOT}/AMap3DMap-NO-IDFA/MAMapKit.framework/AMap.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QdtGame/Pods-QdtGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8858DB15EBC74A51BE0A21F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QdtGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAAFDAE06CF3AA84CD3B2B7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QdtGame/Pods-QdtGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D09AA2120A02B0300B4DBAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D537A2F20A83CD800F0B6F3 /* DaKaViewController.m in Sources */,
+				7D09B78A20A194BA00B4DBAA /* GameScene.m in Sources */,
+				7D09B76E20A1755800B4DBAA /* NSString+QdtEncryptionMethods.m in Sources */,
+				7D09AA3820A02B0400B4DBAA /* main.m in Sources */,
+				7D09B78920A194BA00B4DBAA /* LoginViewController.m in Sources */,
+				7D09AA2A20A02B0300B4DBAA /* AppDelegate.m in Sources */,
+				7D09B76D20A1755800B4DBAA /* NSString+QdtVerificationMethods.m in Sources */,
+				7D09B77420A186CD00B4DBAA /* NSString+Method.m in Sources */,
+				7D537A1320A7BFB200F0B6F3 /* DataScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D09AA3920A02B0400B4DBAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D09AA4220A02B0400B4DBAA /* QdtGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D09AA4420A02B0400B4DBAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D09AA4D20A02B0400B4DBAA /* QdtGameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D09AA3F20A02B0400B4DBAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D09AA2420A02B0300B4DBAA /* QdtGame */;
+			targetProxy = 7D09AA3E20A02B0400B4DBAA /* PBXContainerItemProxy */;
+		};
+		7D09AA4A20A02B0400B4DBAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D09AA2420A02B0300B4DBAA /* QdtGame */;
+			targetProxy = 7D09AA4920A02B0400B4DBAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D09AA2E20A02B0300B4DBAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D09AA2F20A02B0300B4DBAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D09AA3320A02B0400B4DBAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D09AA3420A02B0400B4DBAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D09AA4F20A02B0400B4DBAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7D09AA5020A02B0400B4DBAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D09AA5220A02B0400B4DBAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E3833C1BD5DE69413CC2372 /* Pods-QdtGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VMAL8PCQEF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QdtGame",
+				);
+				INFOPLIST_FILE = QdtGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LIBTOOLFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiuzijie.QdtGame888;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D09AA5320A02B0400B4DBAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECE0A455F5BBB103F77BFA8F /* Pods-QdtGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VMAL8PCQEF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QdtGame",
+				);
+				INFOPLIST_FILE = QdtGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LIBTOOLFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiuzijie.QdtGame888;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7D09AA5520A02B0400B4DBAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QdtGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiuzijie.QdtGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QdtGame.app/QdtGame";
+			};
+			name = Debug;
+		};
+		7D09AA5620A02B0400B4DBAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QdtGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiuzijie.QdtGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QdtGame.app/QdtGame";
+			};
+			name = Release;
+		};
+		7D09AA5820A02B0400B4DBAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QdtGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiuzijie.QdtGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QdtGame;
+			};
+			name = Debug;
+		};
+		7D09AA5920A02B0400B4DBAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QdtGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiuzijie.QdtGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QdtGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D09AA2020A02B0300B4DBAA /* Build configuration list for PBXProject "QdtGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D09AA4F20A02B0400B4DBAA /* Debug */,
+				7D09AA5020A02B0400B4DBAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D09AA5120A02B0400B4DBAA /* Build configuration list for PBXNativeTarget "QdtGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D09AA5220A02B0400B4DBAA /* Debug */,
+				7D09AA5320A02B0400B4DBAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D09AA5420A02B0400B4DBAA /* Build configuration list for PBXNativeTarget "QdtGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D09AA5520A02B0400B4DBAA /* Debug */,
+				7D09AA5620A02B0400B4DBAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D09AA5720A02B0400B4DBAA /* Build configuration list for PBXNativeTarget "QdtGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D09AA5820A02B0400B4DBAA /* Debug */,
+				7D09AA5920A02B0400B4DBAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D09AA1D20A02B0300B4DBAA /* Project object */;
+}

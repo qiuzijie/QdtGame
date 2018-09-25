@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="denglutitle" translatesAutoresizingMaskIntoConstraints="NO" id="3kV-Ta-kUo">
+                                <rect key="frame" x="91.5" y="20" width="483" height="170"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="denglubutton" translatesAutoresizingMaskIntoConstraints="NO" id="ZY8-YY-TZQ">
+                                <rect key="frame" x="209" y="290" width="249" height="65"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="签到通注册账号" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2jV-vh-W4k">
+                                <rect key="frame" x="209" y="225" width="249" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="FIk-Iq-Ci2"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="go"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3kV-Ta-kUo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HEl-qc-W3f"/>
+                            <constraint firstAttribute="bottom" secondItem="ZY8-YY-TZQ" secondAttribute="bottom" constant="20" id="IZX-zq-ANe"/>
+                            <constraint firstItem="2jV-vh-W4k" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NLN-x5-sMF"/>
+                            <constraint firstItem="ZY8-YY-TZQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OQZ-0i-ulu"/>
+                            <constraint firstItem="2jV-vh-W4k" firstAttribute="width" secondItem="ZY8-YY-TZQ" secondAttribute="width" id="Od2-HB-w7i"/>
+                            <constraint firstItem="3kV-Ta-kUo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="i4n-Lv-0We"/>
+                            <constraint firstItem="2jV-vh-W4k" firstAttribute="top" secondItem="3kV-Ta-kUo" secondAttribute="bottom" constant="35" id="oiX-Ek-RTY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="loginImageView" destination="ZY8-YY-TZQ" id="6Kd-9Q-exm"/>
+                        <outlet property="textField" destination="2jV-vh-W4k" id="vaN-cv-88f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75.112443778110944" y="18.399999999999999"/>
+        </scene>
+        <!--Da Ka View Controller-->
+        <scene sceneID="mpC-MI-6HZ">
+            <objects>
+                <viewController storyboardIdentifier="DaKaViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="B3x-jn-Kud" customClass="DaKaViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gAV-tl-NOf">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="daka" translatesAutoresizingMaskIntoConstraints="NO" id="bea-yz-H2N">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GqG-E3-gkh">
+                                <rect key="frame" x="368" y="296" width="299" height="79"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="79" id="Iip-63-A3C"/>
+                                    <constraint firstAttribute="width" constant="299" id="tWL-KU-Hhj"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="beginGame:" destination="B3x-jn-Kud" eventType="touchUpInside" id="hzF-UK-ZIQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bea-yz-H2N" firstAttribute="top" secondItem="wBn-nE-eWh" secondAttribute="top" id="373-Et-AyU"/>
+                            <constraint firstItem="bea-yz-H2N" firstAttribute="leading" secondItem="wBn-nE-eWh" secondAttribute="leading" id="3wG-Gm-Yin"/>
+                            <constraint firstItem="wBn-nE-eWh" firstAttribute="bottom" secondItem="bea-yz-H2N" secondAttribute="bottom" id="7ZO-Op-ylh"/>
+                            <constraint firstItem="wBn-nE-eWh" firstAttribute="trailing" secondItem="bea-yz-H2N" secondAttribute="trailing" id="Anl-lJ-ft1"/>
+                            <constraint firstItem="GqG-E3-gkh" firstAttribute="bottom" secondItem="wBn-nE-eWh" secondAttribute="bottom" id="eea-P2-A00"/>
+                            <constraint firstItem="GqG-E3-gkh" firstAttribute="trailing" secondItem="wBn-nE-eWh" secondAttribute="trailing" id="z0m-iO-2nn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wBn-nE-eWh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5PZ-Ms-9Lx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="704.79760119940033" y="16.800000000000001"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="daka" width="667" height="375"/>
+        <image name="denglubutton" width="249" height="65"/>
+        <image name="denglutitle" width="483" height="170"/>
+    </resources>
+</document>
